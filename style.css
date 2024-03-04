@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #062697;
+}
+
+.container {
+  max-width: 460px;
+  max-height: 450px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 60px 0px 40px 0px;
+  border-radius: 30px;
+  background-color: rgb(77, 77, 253);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 0 3px black;
+}
+
+.container p {
+  position: relative;
+  top: 90px;
+}
+
+.sir {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.computer span,
+.player span {
+  position: relative;
+  top: -20px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.computer,
+.player {
+  padding: 20px;
+}
+
+.opsi {
+  display: flex;
+}
+
+.opsi img {
+  width: 90px;
+}
+.opsi div {
+  margin: 15px;
+}
+
+#batu {
+  position: fixed;
+  margin-left: 40px;
+}
+
+#batu:hover {
+  width: 100px;
+}
+
+#kertas {
+  position: fixed;
+  margin-left: 110px;
+}
+
+#kertas:hover {
+  width: 100px;
+}
+
+#gunting {
+  position: fixed;
+  margin-left: 280px;
+}
+
+#gunting:hover {
+  width: 100px;
+}
+
+.hasil {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 80px;
+  position: fixed;
+  margin-left: 130px;
+  text-align: center;
+  width: 200px;
+}
+
+#pilih {
+  font-size: 18px;
+  margin-top: 60px;
+  display: block;
+}
